@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 // import styled from 'styled-components'
+import Logo from '../images/Logo'
 
 // Styles
 import '../styles/app.css'
@@ -33,32 +34,44 @@ const Layout = ({ location, title, children }) => {
             <div className="container">
               <div className="site-mast">
                 <div className="site-mast-left">
-                  <Link to="/">
-                    {/* {site.logo ?
-                      <img className="site-logo" src={site.logo} alt={site.title} />
-                      : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-                    } */}
+                  <Link
+                    style={{
+                      boxShadow: `none`,
+                      textDecoration: `none`,
+                      color: `inherit`,
+                      display: `block`,
+                      marginLeft: '1rem'
+                    }}
+                    to={`/`}
+                  >
+                    <svg className="site-logo"
+                      data-name="rv_svg_1"
+                      viewBox="0 0 553.71 489.95"
+                      id="rv_svg_1">
+                      <Logo />
+                    </svg>
                   </Link>
                 </div>
                 <div className="site-mast-right">
                   {/* {site.twitter && <a href={twitterUrl} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
                   {site.facebook && <a href={facebookUrl} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/facebook.svg" alt="Facebook" /></a>} */}
-                  <a className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/rss.svg" alt="RSS Feed" /></a>
+                  {/* <a className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/itera-ideia-bg-dark.svg" alt="RSS Feed" /></a> */}
                 </div>
               </div>
               {/* {isHome ? */}
-                <div className="site-banner">
-                  <h1 className="site-banner-title">test title</h1>
-                  <p className="site-banner-desc">test description</p>
-                </div>
-                {/* : null} */}
+              <div className="site-banner">
+                <h1 className="site-banner-title">Welcome to Tokenomics DAO</h1>
+                <p className="site-banner-desc">A place to explore and collaborate on tokenomics of web3 protocols and blockchain applications</p>
+              </div>
+              {/* : null} */}
               <nav className="site-nav">
                 <div className="site-nav-left">
                   {/* The navigation items as setup in Ghost */}
                   {/* <Navigation data={site.navigation} navClass="site-nav-item" /> */}
                 </div>
                 <div className="site-nav-right">
-                  {/* <Link className="site-nav-button" to="/about">About</Link> */}
+                  <Link className="site-nav-button" to="/about">About</Link>
+                  <Link className="site-nav-button" to="/about">Contact</Link>
                 </div>
               </nav>
             </div>

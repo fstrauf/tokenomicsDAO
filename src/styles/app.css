@@ -661,6 +661,11 @@ h6 {
 /* Header
 /* ---------------------------------------------------------- */
 
+.site-logo {
+    height: 100px;
+    width: 100px;
+}
+
 .site-head {
     padding-top: 20px;
     padding-bottom: 20px;
