@@ -6,7 +6,7 @@ import Logo from '../images/Logo'
 // Styles
 import '../styles/app.css'
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children, social, isHome }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -35,13 +35,13 @@ const Layout = ({ location, title, children }) => {
               <div className="site-mast">
                 <div className="site-mast-left">
                   <Link
-                    style={{
-                      boxShadow: `none`,
-                      textDecoration: `none`,
-                      color: `inherit`,
-                      display: `block`,
-                      marginLeft: '1rem'
-                    }}
+                    // style={{
+                    //   boxShadow: `none`,
+                    //   textDecoration: `none`,
+                    //   color: `inherit`,
+                    //   display: `block`,
+                    //   marginLeft: '1rem'
+                    // }}
                     to={`/`}
                   >
                     <svg className="site-logo"
@@ -53,17 +53,18 @@ const Layout = ({ location, title, children }) => {
                   </Link>
                 </div>
                 <div className="site-mast-right">
-                  {/* {site.twitter && <a href={twitterUrl} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
-                  {site.facebook && <a href={facebookUrl} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/facebook.svg" alt="Facebook" /></a>} */}
-                  {/* <a className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/itera-ideia-bg-dark.svg" alt="RSS Feed" /></a> */}
+                  {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
+                  {social.discord && <a href={social.discord} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/discord.svg" alt="Discord" /></a>}
+                  {social.medium && <a href={social.medium} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/medium.svg" alt="Medium" /></a>}
+                  {social.substack && <a href={social.substack} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/substack.svg" alt="Substack" /></a>}
                 </div>
               </div>
-              {/* {isHome ? */}
+              {isHome ?
               <div className="site-banner">
                 <h1 className="site-banner-title">Welcome to Tokenomics DAO</h1>
                 <p className="site-banner-desc">A place to explore and collaborate on tokenomics of web3 protocols and blockchain applications</p>
-              </div>
-              {/* : null} */}
+              </div> : 
+              null}
               <nav className="site-nav">
                 <div className="site-nav-left">
                   {/* The navigation items as setup in Ghost */}
@@ -99,19 +100,6 @@ const Layout = ({ location, title, children }) => {
 
         </div>
       </div>
-
-
-
-
-      {/* <div className="global-wrapper" data-is-root-path={isRootPath}>
-        <sHeader className="global-header">{header}</sHeader>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div> */}
     </>
   )
 }

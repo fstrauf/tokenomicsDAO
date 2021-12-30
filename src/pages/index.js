@@ -8,11 +8,12 @@ import PostCard from '../components/PostCard'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
+  const social = data.site.siteMetadata?.social
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
     return (
-      <Layout location={location} title={siteTitle}>
+      <Layout location={location} title={siteTitle} social={social} isHome={true}>
         <Seo title="Tokenomics DAO" />
         <Bio />
         <p>
@@ -25,7 +26,7 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} social={social} isHome={true}>
       <Seo title="Tokenomics DAO" />
       {/* <ol style={{ listStyle: `none` }}> */}
       <div className="container">
@@ -38,37 +39,6 @@ const BlogIndex = ({ data, location }) => {
                     </section>
                     {/* <Pagination pageContext={pageContext} /> */}
         </div>
-        {/* {posts.map(post => {
-          // const title = post.frontmatter.title || post.fields.slug
-          // <PostCard key={post.id} post={post} />
-          // return (
-          //   <li key={post.fields.slug}>
-          //     <article
-          //       className="post-list-item"
-          //       itemScope
-          //       itemType="http://schema.org/Article"
-          //     >
-          //       <header>
-          //         <h2>
-          //           <Link to={post.fields.slug} itemProp="url">
-          //             <span itemProp="headline">{title}</span>
-          //           </Link>
-          //         </h2>
-          //         <small>{post.frontmatter.date}</small>
-          //       </header>
-          //       <section>
-          //         <p
-          //           dangerouslySetInnerHTML={{
-          //             __html: post.frontmatter.description || post.excerpt,
-          //           }}
-          //           itemProp="description"
-          //         />
-          //       </section>
-          //     </article>
-          //   </li>
-          // )
-        // })}
-      </ol> */}
     </Layout>
   )
 }
@@ -80,6 +50,12 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        social { 
+          twitter
+          discord
+          medium
+          substack
+        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

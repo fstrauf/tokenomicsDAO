@@ -8,7 +8,10 @@ module.exports = {
     description: `Exploring tokenomics`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `ffstrauf`,
+      twitter: `https://twitter.com/ffstrauf`,
+      discord: `https://discord.gg/mUvknr2wjw`,
+      medium: `https://ffstrauf.medium.com/`,
+      substack: `https://fstrauf.substack.com/`,
     },
   },
   plugins: [
