@@ -1,7 +1,6 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -9,7 +8,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const social = data.site.siteMetadata?.social
-  const { previous, next } = data
+  // const { previous, next } = data
 
   return (
     <>

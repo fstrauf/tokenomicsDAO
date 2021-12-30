@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-// import styled from 'styled-components'
 import Logo from '../images/Logo'
 
 // Styles
@@ -35,13 +34,6 @@ const Layout = ({ location, title, children, social, isHome }) => {
               <div className="site-mast">
                 <div className="site-mast-left">
                   <Link
-                    // style={{
-                    //   boxShadow: `none`,
-                    //   textDecoration: `none`,
-                    //   color: `inherit`,
-                    //   display: `block`,
-                    //   marginLeft: '1rem'
-                    // }}
                     to={`/`}
                   >
                     <svg className="site-logo"
@@ -60,19 +52,18 @@ const Layout = ({ location, title, children, social, isHome }) => {
                 </div>
               </div>
               {isHome ?
-              <div className="site-banner">
-                <h1 className="site-banner-title">Welcome to Tokenomics DAO</h1>
-                <p className="site-banner-desc">A place to explore and collaborate on tokenomics of web3 protocols and blockchain applications</p>
-              </div> : 
-              null}
+                <div className="site-banner">
+                  <h1 className="site-banner-title">Welcome to Tokenomics DAO</h1>
+                  <p className="site-banner-desc">A place to explore and collaborate on tokenomics of web3 protocols and blockchain applications</p>
+                </div> :
+                null}
               <nav className="site-nav">
                 <div className="site-nav-left">
                   {/* The navigation items as setup in Ghost */}
                   {/* <Navigation data={site.navigation} navClass="site-nav-item" /> */}
                 </div>
                 <div className="site-nav-right">
-                  <Link className="site-nav-button" to="/about">About</Link>
-                  <Link className="site-nav-button" to="/about">Contact</Link>
+                  <Link className="site-nav-button" to="/contact">Contact</Link>
                 </div>
               </nav>
             </div>
@@ -90,10 +81,13 @@ const Layout = ({ location, title, children, social, isHome }) => {
           <footer className="site-foot">
             <div className="site-foot-nav container">
               <div className="site-foot-nav-left">
-                {/* <Link to="/">{site.title}</Link> © 2021 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a> */}
+                <Link to="/">{title}</Link> © 2021 
               </div>
               <div className="site-foot-nav-right">
-                {/* <Navigation data={site.navigation} navClass="site-foot-nav-item" /> */}
+                {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
+                {social.discord && <a href={social.discord} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/discord.svg" alt="Discord" /></a>}
+                {social.medium && <a href={social.medium} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/medium.svg" alt="Medium" /></a>}
+                {social.substack && <a href={social.substack} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/substack.svg" alt="Substack" /></a>}
               </div>
             </div>
           </footer>
