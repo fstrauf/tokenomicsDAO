@@ -1,13 +1,14 @@
-import * as React from "react"
+import React from "react"
 import { Link } from "gatsby"
 import Logo from '../images/Logo'
 
 // Styles
 import '../styles/app.css'
 
-const Layout = ({ location, title, children, social, isHome }) => {
+const Layout = ({ location, title, children, social, isHome}) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
+
   let header
 
   if (isRootPath) {
@@ -45,6 +46,8 @@ const Layout = ({ location, title, children, social, isHome }) => {
                   </Link>
                 </div>
                 <div className="site-mast-right">
+                {/* if(!social) return null
+                return  */}
                   {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
                   {social.discord && <a href={social.discord} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/discord.svg" alt="Discord" /></a>}
                   {social.medium && <a href={social.medium} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/medium.svg" alt="Medium" /></a>}
@@ -81,7 +84,7 @@ const Layout = ({ location, title, children, social, isHome }) => {
           <footer className="site-foot">
             <div className="site-foot-nav container">
               <div className="site-foot-nav-left">
-                <Link to="/">{title}</Link> © 2021 
+                <Link to="/">{title}</Link> © 2021
               </div>
               <div className="site-foot-nav-right">
                 {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
