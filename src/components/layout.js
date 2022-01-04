@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from '../images/Logo'
-
+import Search from "./search"
 // Styles
 import '../styles/app.css'
 
+
+const searchIndices = [{ name: `Pages`, title: `Pages` }]
 const Layout = ({ location, title, children, social, isHome}) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
@@ -46,8 +48,6 @@ const Layout = ({ location, title, children, social, isHome}) => {
                   </Link>
                 </div>
                 <div className="site-mast-right">
-                {/* if(!social) return null
-                return  */}
                   {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
                   {social.discord && <a href={social.discord} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/discord.svg" alt="Discord" /></a>}
                   {social.medium && <a href={social.medium} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/medium.svg" alt="Medium" /></a>}
@@ -62,8 +62,7 @@ const Layout = ({ location, title, children, social, isHome}) => {
                 null}
               <nav className="site-nav">
                 <div className="site-nav-left">
-                  {/* The navigation items as setup in Ghost */}
-                  {/* <Navigation data={site.navigation} navClass="site-nav-item" /> */}
+                  <Search indices={searchIndices} />
                 </div>
                 <div className="site-nav-right">
                   <Link className="site-nav-button" to="/contact">Contact</Link>
