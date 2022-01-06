@@ -8,7 +8,6 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const social = data.site.siteMetadata?.social
-  // const { previous, next } = data
 
   return (
     <>
@@ -27,7 +26,6 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 class='content-title' itemProp="headline">{post.frontmatter.title}</h1>
-          {/* <p>{post.frontmatter.date}</p> */}
         </header>
         <section class='content-body load-external-scripts'
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -35,35 +33,8 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          {/* <Bio /> */}
         </footer>
       </article>
-      {/* <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav> */}
     </Layout>
     </>
   )

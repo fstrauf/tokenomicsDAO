@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-// import Logo from '../../static/images/icons/'
 import Search from "./search"
 // Styles
 import '../styles/app.css'
@@ -36,20 +35,9 @@ const Layout = ({ location, title, children, social, isHome}) => {
             <div className="container">
               <div className="site-mast">
                 <div className="site-mast-left">
-                  {/* <Link
-                    to={`/`}
-                  >
-                    <svg className="site-logo"
-                      data-name="rv_svg_1"
-                      viewBox="0 0 553.71 489.95"
-                      id="rv_svg_1">
-                      <Logo />
-                    </svg>
-                  </Link> */}
                   <Link to={`/`}>
                   <img className="site-logo" src="/images/icons/tokenomicsDAO.svg" alt="TDaoLogo" />
-                  </Link>
-                  {/* <a href={`/`} className="site-logo" target="_blank" rel="noopener noreferrer"><img className="site-logo" src="/images/icons/tokenomicsDAO.svg" alt="TDaoLogo" /></a> */}
+                  </Link>                  
                 </div>
                 <div className="site-mast-right">
                   {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
@@ -69,7 +57,7 @@ const Layout = ({ location, title, children, social, isHome}) => {
                   <Search indices={searchIndices} />
                 </div>
                 <div className="site-nav-right">
-                  <Link className="site-nav-button" to="/contact">Contact</Link>
+                  {/* <Link className="site-nav-button" to="/contact">Contact</Link> */}
                 </div>
               </nav>
             </div>
