@@ -11,7 +11,10 @@ const Contact = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle} social={social} isHome={false}>
       <Seo title="Contact" />
-      <Link class='content-title' to={social.discord}>Reach out to us on Discord</Link>
+      <section class='content-body load-external-scripts'>
+        <Link className="contact-form" to='https://forms.gle/h5hQeTvysB5xpC1K8'>Consulting Requests</Link>
+        <Link className="contact-form" to='https://forms.gle/Y5BWFa5CtRGNEoAbA'>Article Requests</Link>
+      </section>
     </Layout>
   )
 }

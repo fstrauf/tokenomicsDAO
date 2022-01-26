@@ -550,6 +550,15 @@ h6 {
     background: #fff;
 }
 
+.contact-form {
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
 .post-feature-image img {
     margin: 0 0 3vw;
     width: 100%;

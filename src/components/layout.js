@@ -57,7 +57,7 @@ const Layout = ({ location, title, children, social, isHome}) => {
                   <Search indices={searchIndices} />
                 </div>
                 <div className="site-nav-right">
-                  {/* <Link className="site-nav-button" to="/contact">Contact</Link> */}
+                  <Link className="site-nav-button" to="/contact">Contact</Link>
                 </div>
               </nav>
             </div>
