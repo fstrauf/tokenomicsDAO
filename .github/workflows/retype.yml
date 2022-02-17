@@ -5,6 +5,14 @@ on:
     branches:
       - main
 
+input: ./docs
+url: fstrauf.github.io/tokenomicsDAO
+branding:
+  title: TokenomicsDAO
+  label: Docs
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
 jobs:
   publish:
     name: Publish to retype branch
