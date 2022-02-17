@@ -10,7 +10,7 @@ module.exports = {
     description: `Exploring tokenomics`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `https://twitter.com/ffstrauf`,
+      twitter: `https://twitter.com/tokenomicsdao`,
       discord: `https://discord.gg/mUvknr2wjw`,
       medium: `https://ffstrauf.medium.com/`,
       substack: `https://fstrauf.substack.com/`,
