@@ -20,6 +20,11 @@ Key Question(s): Based on supply alone, will this token hold or increase it's va
 - Are there any holder(s) with a significant stake that could drive material selling pressure upon vesting?
 - What is the vesting schedule for the largest holders?
 
+***Types of allocations***
+- ecosystem incentives: to my understanding this means everything that encourages people to engage with the ecosystem. so this can be staking/LP rewards, bounties, in-game rewards, rewards for participation in DAOs etc
+- foundation: i think this might be things like grants offered to developers to build on a protocol, or designers to build stuff in a game etc
+- treasury: treasury of the DAO so that token holders eligible in governance decisions can decide what the treasury is used for. The projects (DeFi, P2E, etc.) will drive a lot of how a treasury is used. A media DAO like Bankless might use it to pay contributors, projects might use it to fund new developments and others will likely use it to provide liquidity or even collect their own liquidity via Olympus pro.
+
 **Demand**
 
 Key Question: Why would someone hold this token?
