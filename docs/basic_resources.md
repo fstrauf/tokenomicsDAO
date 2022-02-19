@@ -27,6 +27,7 @@ _Analysis/articles covering initial tokenomics, governing principles and associa
 - A Hitchiker's Guide to Token Engineering
   - [Substack](https://ahitchhikers.substack.com/)
   - [Cryptoeconomic Patterns](https://docs.google.com/presentation/d/1j4aNHhpaxUJjJ-DmnG2DC_zCGDc65oq-ND7zHNrmeKk/edit#slide=id.p)
+- [Economics of Play to Earn Games](https://econteric.com/wp-content/uploads/2022/01/Economics_of_Play_to_Earn_Gaming_Economy-1.pdf) - great detailed breakdown of how various games apply tokenomics.
 
 ## DAO-specific Content
 - [Interactive Design & Tooling for DAOs](https://blog.aragon.org/incentive-design-tooling-for-daos/)
