@@ -14,6 +14,7 @@ module.exports = {
       discord: `https://discord.gg/mUvknr2wjw`,
       medium: `https://ffstrauf.medium.com/`,
       substack: `https://fstrauf.substack.com/`,
+      docs: `https://fstrauf.github.io/tokenomicsDAO/`,
     },
   },
   plugins: [

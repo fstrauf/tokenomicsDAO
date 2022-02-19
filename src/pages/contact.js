@@ -31,6 +31,7 @@ export const pageQuery = graphql`
             discord
             medium
             substack
+            docs
           }
       }
     }
