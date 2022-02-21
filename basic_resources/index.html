@@ -25,11 +25,11 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/tokenomicsDAO/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/tokenomicsDAO/resources/css/retype.css?v=1.11.2.698624264614" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/tokenomicsDAO/resources/css/retype.css?v=1.11.2.698801056520" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/tokenomicsDAO/resources/js/config.js?v=1.11.2.698624264614" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/tokenomicsDAO/resources/js/config.js?v=1.11.2.698801056520" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/tokenomicsDAO/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/tokenomicsDAO/resources/js/lunr.js?v=1.11.2.698624264614" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/tokenomicsDAO/resources/js/lunr.js?v=1.11.2.698801056520" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -170,10 +170,10 @@
         <span>Tokenomics Resources</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="tokenomics-101-level-content">
+<doc-anchor-target id="introductory-level-content">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tokenomics-101-level-content">#</doc-anchor-trigger>
-        <span>Tokenomics 101 Level Content</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introductory-level-content">#</doc-anchor-trigger>
+        <span>Introductory Level Content</span>
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="intro-to-tokenomics">
@@ -182,17 +182,22 @@
         <span>Intro to Tokenomics</span>
     </h3>
 </doc-anchor-target>
-<p><strong><a href="https://medium.com/coinmonks/all-you-need-to-know-about-tokenomics-39642fe11d02">All You Need to Know About Tokenomics</a></strong></p>
+<ul>
+<li><p><a href="https://medium.com/coinmonks/all-you-need-to-know-about-tokenomics-39642fe11d02">All You Need to Know About Tokenomics</a></p>
 <ul>
 <li>Basics of tokenomics and overview of the key variables: supply, burning, monetary policy, token distribution and earnings</li>
 </ul>
-<p><strong><a href="https://alexbeckett.medium.com/an-introduction-to-token-economics-tokenomics-c6eb9211778f">An Introduction to Token Economics</a></strong></p>
+</li>
+<li><p><a href="https://alexbeckett.medium.com/an-introduction-to-token-economics-tokenomics-c6eb9211778f">An Introduction to Token Economics</a></p>
 <ul>
 <li>Exploring supply and demand drivers for tokens, with a high level overivew on token distribution for UNI</li>
 </ul>
-<p><strong><a href="https://every.to/almanack/tokenomics-101">Tokenomics 101: The Basics of Evaluating Cryptocurrencies</a></strong></p>
+</li>
+<li><p><a href="https://every.to/almanack/tokenomics-101">Tokenomics 101: The Basics of Evaluating Cryptocurrencies</a></p>
 <ul>
 <li>Tokenomics breakdown through the lens of supply + demand as opposed to the underlying driveres (e.g. burning, monetary policy, etc.), with a high-level analysis on Convex Finance</li>
+</ul>
+</li>
 </ul>
 <doc-anchor-target id="protocol-tokenomics-overviews">
     <h3>
@@ -215,12 +220,36 @@
 <li>Slightly outdated, but helpful illustration of how infrastructure changes impact supply/demand dynamics for ETH (or other asset)</li>
 </ul>
 </li>
+<li><a href="https://docs.botto.com/details/token-distribution">Botto</a></li>
+</ul>
+<doc-anchor-target id="intermediate-content">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#intermediate-content">#</doc-anchor-trigger>
+        <span>Intermediate Content</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.mechanism.capital/liquidity-targeting/">“Liquidity Targeting”: Toward More Efficient Liquidity Mining Programs</a>
+<ul>
+<li>Proposal for a basic quantitative framework to analyze necessity and effectiveness of Liquidity Mining Programs. The approach outlined in the proposal - &quot;Liquidity Targeting&quot; - finds an optimal level for a given protocol and from there, backs out a Liquidity Mining rewards schedule</li>
+</ul>
+</li>
+<li><a href="https://www.placeholder.vc/blog/2020/9/17/stop-burning-tokens-buyback-and-make-instead">Stop Burning Tokens – Buyback And Make Instead</a>
+<ul>
+<li>Introduces concept and associated benefits of a &quot;buyback and make&quot; token model instead of the typical buyback and burn approach that&#x27;s used widely today</li>
+</ul>
+</li>
+<li><a href="https://www.placeholder.vc/blog/2021/4/1/the-original-sin">The Original Sin</a>
+<ul>
+<li>Target token distribution for insiders + investors</li>
+</ul>
+</li>
 </ul>
 <doc-anchor-target id="advanced-content">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#advanced-content">#</doc-anchor-trigger>
         <span>Advanced Content</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
 <ul>
 <li>A Hitchiker&#x27;s Guide to Token Engineering
@@ -229,7 +258,11 @@
 <li><a href="https://docs.google.com/presentation/d/1j4aNHhpaxUJjJ-DmnG2DC_zCGDc65oq-ND7zHNrmeKk/edit#slide=id.p">Cryptoeconomic Patterns</a></li>
 </ul>
 </li>
-<li><a href="https://econteric.com/wp-content/uploads/2022/01/Economics_of_Play_to_Earn_Gaming_Economy-1.pdf">Economics of Play to Earn Games</a> - great detailed breakdown of how various games apply tokenomics.</li>
+<li><a href="https://econteric.com/wp-content/uploads/2022/01/Economics_of_Play_to_Earn_Gaming_Economy-1.pdf">Economics of Play to Earn Games</a>
+<ul>
+<li>Great detailed breakdown of how various games apply tokenomics</li>
+</ul>
+</li>
 </ul>
 <doc-anchor-target id="dao-specific-content">
     <h2>
