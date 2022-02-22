@@ -41,3 +41,8 @@ _Analysis/articles covering initial tokenomics, governing principles and associa
 
 ## DAO-specific Content
 - [Interactive Design & Tooling for DAOs](https://blog.aragon.org/incentive-design-tooling-for-daos/)
+
+## Modelling and Simulation
+- [CadCad - computer aided design](https://github.com/cadCAD-org)
+- [Intro to systems thinking, modelling and CadCad](https://joranhonig.nl/getting-familiar-with-cadcad/)
+- TEC created an [example simulator](https://sim.commonsstack.org/)
