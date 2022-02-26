@@ -1050,6 +1050,23 @@ h6 {
     padding-right: 0;
 }
 
+/* Manifesto
+/* ---------------------------------------------------------- */
+.manifesto h1 {
+    font-size: 2rem;
+}
+
+.manifesto {
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+@media (max-width: 500px) {
+    .manifesto {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
 
 /* Koenig Styles
 /* ---------------------------------------------------------- */

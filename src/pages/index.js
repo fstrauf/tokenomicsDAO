@@ -53,6 +53,7 @@ export const pageQuery = graphql`
           medium
           substack
           docs
+          youtube
         }
       }
     }

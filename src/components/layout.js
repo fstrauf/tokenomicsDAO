@@ -44,6 +44,7 @@ const Layout = ({ location, title, children, social, isHome}) => {
                   {social.discord && <a href={social.discord} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/discord.svg" alt="Discord" /></a>}
                   {social.medium && <a href={social.medium} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/medium.svg" alt="Medium" /></a>}
                   {social.substack && <a href={social.substack} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/substack.svg" alt="Substack" /></a>}
+                  {social.youtube && <a href={social.youtube} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/youtube.svg" alt="Youtube" /></a>}
                 </div>
               </div>
               {isHome ?
@@ -59,6 +60,7 @@ const Layout = ({ location, title, children, social, isHome}) => {
                 <div className="site-nav-right">
                   <Link className="site-nav-button" to="/contact">Contact</Link>
                   <Link className="site-nav-button" to={social.docs}>Education</Link>
+                  <Link className="site-nav-button" to="/manifesto">Manifesto</Link>
                 </div>
               </nav>
             </div>
@@ -76,13 +78,14 @@ const Layout = ({ location, title, children, social, isHome}) => {
           <footer className="site-foot">
             <div className="site-foot-nav container">
               <div className="site-foot-nav-left">
-                <Link to="/">{title}</Link> © 2021
+                <Link to="/">{title}</Link> © 2022
               </div>
               <div className="site-foot-nav-right">
                 {social.twitter && <a href={social.twitter} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
                 {social.discord && <a href={social.discord} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/discord.svg" alt="Discord" /></a>}
                 {social.medium && <a href={social.medium} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/medium.svg" alt="Medium" /></a>}
                 {social.substack && <a href={social.substack} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/substack.svg" alt="Substack" /></a>}
+                {social.youtube && <a href={social.youtube} className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/youtube.svg" alt="Youtube" /></a>}
               </div>
             </div>
           </footer>

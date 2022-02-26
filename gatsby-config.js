@@ -15,6 +15,7 @@ module.exports = {
       medium: `https://ffstrauf.medium.com/`,
       substack: `https://fstrauf.substack.com/`,
       docs: `https://fstrauf.github.io/tokenomicsDAO/`,
+      youtube: `https://www.youtube.com/channel/UCg5rYXKh2dX1P6lYNVnq6SQ`,
     },
   },
   plugins: [
