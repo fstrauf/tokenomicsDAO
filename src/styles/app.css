@@ -1057,14 +1057,14 @@ h6 {
 }
 
 .manifesto {
-    margin-left: 30rem;
-    margin-right: 30rem;
+    inline-size: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 500px) {
     .manifesto {
-        margin-left: 7rem;
-        margin-right: 7rem;
+        inline-size: 300px;
     }
 }
 
