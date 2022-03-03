@@ -12,4 +12,12 @@ excerpt: "A decentralised stablecoin ecosystem"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/Rso5mEXDvjE">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://fstrauf.substack.com/p/tokenomics-101-terra-ecosystem)

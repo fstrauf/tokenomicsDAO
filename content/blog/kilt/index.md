@@ -12,4 +12,12 @@ excerpt: "Self sovereign identity blockchain"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/l1D3OBRjxWI">
+</iframe>
+
+---
+
 Read the full protocol tokenomics deep dive here.

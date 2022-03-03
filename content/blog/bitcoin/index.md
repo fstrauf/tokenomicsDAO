@@ -12,4 +12,12 @@ excerpt: "Needs no introduction"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/hqYFIUCHNXI">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://fstrauf.substack.com/p/tokenomics-101-bitcoin-and-ethereum)

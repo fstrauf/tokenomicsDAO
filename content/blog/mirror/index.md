@@ -12,4 +12,12 @@ excerpt: "A synthetics protocol on Terra"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/g8L08oe0nXo">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://fstrauf.substack.com/p/tokenomics-101-terra-ecosystem)

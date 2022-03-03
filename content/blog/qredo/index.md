@@ -12,4 +12,12 @@ excerpt: "Decentralised custody for institutions"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/HIb_ySLRFHg">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://fstrauf.substack.com/p/tokenomics-101-qredo)

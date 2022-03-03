@@ -12,4 +12,12 @@ excerpt: "bringing real estate on chain"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/BO7CbIe4YbU">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://medium.com/bankless-dao/citadao-delivers-real-estate-on-chain-defi-style-d4a99fdcf8a)

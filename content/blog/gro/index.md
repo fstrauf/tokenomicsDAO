@@ -12,4 +12,12 @@ excerpt: "risk balanced stablecoin yield farming"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/nkxZZF8HSdU">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://medium.com/bankless-dao/protocol-overview-gro-5e0bdabd3023)

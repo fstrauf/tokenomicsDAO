@@ -12,4 +12,12 @@ excerpt: "The internet computer"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/Ovo8c6YCsmw">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://fstrauf.substack.com/p/tokenomics-101-bitcoin-and-ethereum)

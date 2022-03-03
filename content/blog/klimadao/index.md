@@ -13,4 +13,12 @@ excerpt: "Saving the planet with high yield"
 
 ---
 
+# Video Walkthrough:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/VUJUs0SQReM">
+</iframe>
+
+---
+
 [Read the full protocol tokenomics deep dive here](https://fstrauf.substack.com/p/tokenomics-101-klima-dao)
