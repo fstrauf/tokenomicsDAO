@@ -12,6 +12,9 @@
 - [Tokenomics 101: The Basics of Evaluating Cryptocurrencies](https://every.to/almanack/tokenomics-101)
   - Tokenomics breakdown through the lens of supply + demand as opposed to the underlying driveres (e.g. burning, monetary policy, etc.), with a high-level analysis on Convex Finance
 
+- [Tokenomics 102: Digging Deeper on Supply](https://cryptonat.substack.com/p/tokenomics-102-supply)
+  - Deep dive into all things supply. Great write up with plenty of examples.
+
 ### Protocol Tokenomics Overviews
 _Analysis/articles covering initial tokenomics, governing principles and associated tradeoffs made when designing incentives compared to other protocols_
 
