@@ -26,6 +26,8 @@ _Analysis/articles covering initial tokenomics, governing principles and associa
 - [Ethereum Tokenomics 2021: Impact of Eth2, EIP 1559 and L2 Scaling Solutions on Demand/Supply](https://hackernoon.com/ethereum-tokenomics-2021-impact-of-eth2-eip-1559-and-l2-scaling-solutions-on-demandsupply-gx5034tw)
   - Slightly outdated, but helpful illustration of how infrastructure changes impact supply/demand dynamics for ETH (or other asset)
 - [Botto](https://docs.botto.com/details/token-distribution)
+- [Ethereum ecosystem diagrams](https://github.com/dgeorgiev06/awesome-ethereum-diagrams)
+  - Nice collection of diagrams from different parts of the Ethereum ecosystem.  
 
 ## Intermediate Content
 - [“Liquidity Targeting”: Toward More Efficient Liquidity Mining Programs](https://www.mechanism.capital/liquidity-targeting/)
