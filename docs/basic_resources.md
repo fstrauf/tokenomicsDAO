@@ -43,6 +43,8 @@ _Analysis/articles covering initial tokenomics, governing principles and associa
   - [Cryptoeconomic Patterns](https://docs.google.com/presentation/d/1j4aNHhpaxUJjJ-DmnG2DC_zCGDc65oq-ND7zHNrmeKk/edit#slide=id.p)
 - [Economics of Play to Earn Games](https://econteric.com/wp-content/uploads/2022/01/Economics_of_Play_to_Earn_Gaming_Economy-1.pdf) 
   - Great detailed breakdown of how various games apply tokenomics
+- [Token Ecosystem Creation](http://outlierventures.io/wp-content/uploads/2019/05/Token-Ecosystem-Creation-Outlier-Ventures-PDF.pdf)
+  - Super detailed runthrough of all things token creation from the perspective of a VC firm.
 
 ## DAO-specific Content
 - [Interactive Design & Tooling for DAOs](https://blog.aragon.org/incentive-design-tooling-for-daos/)
