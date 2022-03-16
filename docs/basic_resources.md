@@ -36,6 +36,8 @@ _Analysis/articles covering initial tokenomics, governing principles and associa
   - Introduces concept and associated benefits of a "buyback and make" token model instead of the typical buyback and burn approach that's used widely today 
 - [The Original Sin](https://www.placeholder.vc/blog/2021/4/1/the-original-sin)
   - Target token distribution for insiders + investors
+- [Paper on evaluating Crypto Tokens](https://cdn.discordapp.com/attachments/952151887212335104/953560909547180042/To_Token_or_not_to_Token__Tools_for_Understanding_Blockchain_Toke.pdf)
+  -  Decision tree on page 13 gives a great overview of token types and how to classify them,
 
 ## Advanced Content
 - A Hitchiker's Guide to Token Engineering
