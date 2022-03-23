@@ -38,6 +38,8 @@ _Analysis/articles covering initial tokenomics, governing principles and associa
   - Target token distribution for insiders + investors
 - [Paper on evaluating Crypto Tokens](https://cdn.discordapp.com/attachments/952151887212335104/953560909547180042/To_Token_or_not_to_Token__Tools_for_Understanding_Blockchain_Toke.pdf)
   -  Decision tree on page 13 gives a great overview of token types and how to classify them,
+- [Token Distribution](https://lstephanian.mirror.xyz/kB9Jz_5joqbY0ePO8rU1NNDKhiqvzU6OWyYsbSA-Kcc)
+  -  Overview on token distributions of past projects.
 
 ## Advanced Content
 - A Hitchiker's Guide to Token Engineering
