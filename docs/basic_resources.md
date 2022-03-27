@@ -15,6 +15,9 @@
 - [Tokenomics 102: Digging Deeper on Supply](https://cryptonat.substack.com/p/tokenomics-102-supply)
   - Deep dive into all things supply. Great write up with plenty of examples.
 
+- [On the meme of market caps & unlocks](https://cobie.substack.com/p/on-the-meme-of-market-caps-and-unlocks?s=r)
+  - Brief explainer on how to decipher "true" market caps/valuations by analyzing tokenomics + unlocks.
+
 ### Protocol Tokenomics Overviews
 _Analysis/articles covering initial tokenomics, governing principles and associated tradeoffs made when designing incentives compared to other protocols_
 
