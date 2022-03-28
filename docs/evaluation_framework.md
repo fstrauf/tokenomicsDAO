@@ -5,11 +5,12 @@ _High level framework / key questions for evaluating tokenomics_
 
 **Supply**
 
-Key Question(s): Based on supply alone, will this token hold or increase it's value? Or will that be inflated away?
+Key Question(s): Based on supply alone, will this token hold or increase it's value? Or will that be inflated away? Generally speaking, want to understand supply today, where supply will be in the future and when/how it getes there.
 
 **Total Supply**
-- How many tokens exist today?
+- How many tokens exist today? Does that number include "inactive" tokens, or tokens that are currently staked?
 - How many will ever exist? (e.g. is there a supply cap in place?)
+- What is the market cap / fully diluted valuation (or FDV) ratio? The market cap is the circulating supply of tokens multiplied by the token price, whereas the FDV takes into acccount the unreleased supply, meaning FDV = token price * max supply if all tokens were in circulation (see Tokenomics 102 link on the resources page for more detail)
 
 **Issuance Rate**
 - Is the issuance rate fixed or variable?
@@ -19,6 +20,7 @@ Key Question(s): Based on supply alone, will this token hold or increase it's va
 - How was the supply initially allocated among investors, community, core team, etc?
 - Are there any holder(s) with a significant stake that could drive material selling pressure upon vesting?
 - What is the vesting schedule for the largest holders?
+- For tokens with liquidity mining programs, do farming rewards accrue to early investors/team members even when their tokens are still locked?
 
 ***Types of allocations***
 - ecosystem incentives: to my understanding this means everything that encourages people to engage with the ecosystem. so this can be staking/LP rewards, bounties, in-game rewards, rewards for participation in DAOs etc
