@@ -25,11 +25,11 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/tokenomicsDAO/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/tokenomicsDAO/resources/css/retype.css?v=1.11.2.701732034390" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/tokenomicsDAO/resources/css/retype.css?v=1.11.2.701843265584" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/tokenomicsDAO/resources/js/config.js?v=1.11.2.701732034390" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/tokenomicsDAO/resources/js/config.js?v=1.11.2.701843265584" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/tokenomicsDAO/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/tokenomicsDAO/resources/js/lunr.js?v=1.11.2.701732034390" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/tokenomicsDAO/resources/js/lunr.js?v=1.11.2.701843265584" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -178,11 +178,12 @@
 </doc-anchor-target>
 <p><em>High level framework / key questions for evaluating tokenomics</em></p>
 <p><strong>Supply</strong></p>
-<p>Key Question(s): Based on supply alone, will this token hold or increase it&#x27;s value? Or will that be inflated away?</p>
+<p>Key Question(s): Based on supply alone, will this token hold or increase it&#x27;s value? Or will that be inflated away? Generally speaking, want to understand supply today, where supply will be in the future and when/how it getes there.</p>
 <p><strong>Total Supply</strong></p>
 <ul>
-<li>How many tokens exist today?</li>
+<li>How many tokens exist today? Does that number include &quot;inactive&quot; tokens, or tokens that are currently staked?</li>
 <li>How many will ever exist? (e.g. is there a supply cap in place?)</li>
+<li>What is the market cap / fully diluted valuation (or FDV) ratio? The market cap is the circulating supply of tokens multiplied by the token price, whereas the FDV takes into acccount the unreleased supply, meaning FDV = token price * max supply if all tokens were in circulation (see Tokenomics 102 link on the resources page for more detail)</li>
 </ul>
 <p><strong>Issuance Rate</strong></p>
 <ul>
@@ -194,6 +195,7 @@
 <li>How was the supply initially allocated among investors, community, core team, etc?</li>
 <li>Are there any holder(s) with a significant stake that could drive material selling pressure upon vesting?</li>
 <li>What is the vesting schedule for the largest holders?</li>
+<li>For tokens with liquidity mining programs, do farming rewards accrue to early investors/team members even when their tokens are still locked?</li>
 </ul>
 <p><em><strong>Types of allocations</strong></em></p>
 <ul>
