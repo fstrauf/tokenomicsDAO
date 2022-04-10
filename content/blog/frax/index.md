@@ -12,4 +12,4 @@ excerpt: "An algorithmic stablecoin"
 
 ---
 
-[Read the full protocol tokenomics deep dive here]()
+[Read the full protocol tokenomics deep dive here](https://mirror.xyz/jackchong.eth/iB_teRKgBaKm4OTKFmjf8hFAM55C1_i0Z2kf-KkYz2I)
