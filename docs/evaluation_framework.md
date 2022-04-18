@@ -1,51 +1,66 @@
 # Evaluating Tokenomics
 
-## Tokenomics Evaluation Framework
 _High level framework / key questions for evaluating tokenomics_
 
-**Supply**
+## Supply ##
 
-Key Question(s): Based on supply alone, will this token hold or increase it's value? Or will that be inflated away? Generally speaking, want to understand supply today, where supply will be in the future and when/how it getes there.
+Key Question(s): All else equal and based on supply alone, will this token maintain, decrease or increase its value? Generally speaking, we want to understand the supply today, where supply will be in the future and when/how it gets there.
 
 **Total Supply**
 - How many tokens exist today? Does that number include "inactive" tokens, or tokens that are currently staked?
+  - It’s important to understand why the tokens are staked, and what incentives are in place for stakers. Is there a minimum amount of time required to stake, or can holders un-stake their tokens at will?
 - How many will ever exist? (e.g. is there a supply cap in place?)
-- What is the market cap / fully diluted valuation (or FDV) ratio? The market cap is the circulating supply of tokens multiplied by the token price, whereas the FDV takes into acccount the unreleased supply, meaning FDV = token price * max supply if all tokens were in circulation (see Tokenomics 102 link on the resources page for more detail)
+- What is the market cap / fully diluted valuation (or FDV) ratio? 
+  - The market cap is the circulating supply of tokens multiplied by the token price, whereas the FDV takes into account the unreleased supply, meaning FDV = token price * max supply if all tokens were in circulation (see Tokenomics 102 link on the resources page for more detail)
 
 **Issuance Rate**
 - Is the issuance rate fixed or variable?
+  - Review the governance forum for any upcoming protocol proposals or improvements that will impact the issuance rate, like the burning of base transaction fees in EIP-1559
 - If variable, what are the factors that determine (and can influence) issuance rates?
+  - How much staying power do those factors have, and what is required to revise the issuance rates?
 
-**Allocation/Vesting**
+**Allocation**
 - How was the supply initially allocated among investors, community, core team, etc?
+  - In general, the greater share of tokens allocated to insiders - including investors and team members - the greater the relative disadvantage compared to a project that allocated more to community incentives 
 - Are there any holder(s) with a significant stake that could drive material selling pressure upon vesting?
+  - For holders with larger stakes, what is their cost basis? Consider the investor/fund mandate and their investing track record -- what is the likelihood they’ll sell a portion or all of their stake upon vesting?
+- What is the supply not distributed to investors or team members used for?
+  - Ecosystem Incentives: How much of supply was held back to incentivize engagement with the ecosystem? This can be through staking/LP rewards, bounties, in-game rewards, etc. Based on incentive payouts, how long can these incentives be sustained given the initial allocation?
+  - Foundation: How much is held back for grants or to otherwise incentivize developers?
+  - Treasury: How much is held back within the treasury, and how does the DAO/protocol plan to use treasury funds to further the development? E.g. paying contributors, providing liquidity, etc.
+
+
+**Vesting**
 - What is the vesting schedule for the largest holders?
+  - At a minimum, good rule of thumb is teams and early investors should have 3-6 month lockups with subsequent linear vesting
 - For tokens with liquidity mining programs, do farming rewards accrue to early investors/team members even when their tokens are still locked?
+  - See [Cobie’s post on incentives](https://cobie.substack.com/p/incentives-structures?s=r) structures + how farming rewards were available to early investors with locked tokens.
 
-***Types of allocations***
-- ecosystem incentives: to my understanding this means everything that encourages people to engage with the ecosystem. so this can be staking/LP rewards, bounties, in-game rewards, rewards for participation in DAOs etc
-- foundation: i think this might be things like grants offered to developers to build on a protocol, or designers to build stuff in a game etc
-- treasury: treasury of the DAO so that token holders eligible in governance decisions can decide what the treasury is used for. The projects (DeFi, P2E, etc.) will drive a lot of how a treasury is used. A media DAO like Bankless might use it to pay contributors, projects might use it to fund new developments and others will likely use it to provide liquidity or even collect their own liquidity via Olympus pro.
 
-**Demand**
+## Demand ##
 
 Key Question: Why would someone hold this token?
 
 **ROI**
+- Is the token designed to be held or spent?
 - Excluding any price appreciation, what return is generated by simply holding the token?
+  - Return can come from two sources - for example, holders of $SUSHI are entitled to a share of trading fees generated, but holders can earn additional return from staking (xSUSHI)
+- If there is an opportunity to stake, are staking rewards paid out in the native token, or something other than the native token?
+  - A general rule of thumb is that if staking rewards are paid out in the native token, as a holder you’re maintaining your stake and avoiding dilution as opposed to true “cash flows”
 - Is there an opportunity to earn an additional return by yield farming?
 - Are earnings/fees generated from the protocol distributed back to token holders?
 - Does any "rebasing" take place as the protocol inflates?
-  _Rebasing works stimilar to a stock split, whereby holding and staking the token enables the holder to receive more, thereby offsetting any impact of inflation and holding % ownership constant_
+  _Rebasing works similar to a stock split, whereby holding and staking the token enables the holder to receive more, thereby offsetting any impact of inflation and holding % ownership constant_
 
 **Community**
 - How active is the Discord/Twitter?
 - Have any grants, hackathons or ecosystem funds been announced?
 - How is the protocol actively working to drive additional community engagement?
-- Do one-time + ongoing initiatves drive additional token demand?
+- Do one-time + ongoing initiatives drive additional token demand?
 
 **Lockups**
 - Is there a lockup program in place?
+  - For example, holders of $CRV can “vote lock” (or lock up) their tokens for a defined period of time, like 6 months to 2 years, and earn a “multiplier” on voting power for CurveDAO proposals
 - If there is a lockup program in place, what is the incremental value of rewards and what are the requirements to earn those rewards?
 - What % of total tokens outstanding are locked up?
 - How much selling pressure is generated upon lockup expiration (and at what dates)?
