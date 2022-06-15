@@ -3,7 +3,7 @@ title: Tokenomics Fei and Tribe DAO
 date: "2015-05-01T22:12:03.284Z"
 description: "Tokenomics Fei and Tribe DAO"
 id: "1"
-slug: tribe
+slug: tribedao
 feature_image: tokenomics_tribe.drawio.png
 excerpt: "An algorithmic stablecoin"
 ---

@@ -3,7 +3,7 @@ title: Tokenomics Web3Dev DAO
 date: "2015-05-01T22:12:03.284Z"
 description: "Tokenomics Web3Dev DAO"
 id: "1"
-slug: Web3Dev
+slug: web3devdao
 feature_image: tokenomics_web3devdao.drawio.png
 excerpt: "A web3 developer DAO"
 ---
