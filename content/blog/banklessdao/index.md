@@ -12,4 +12,4 @@ excerpt: "A media DAO helping 1 billion go bankless"
 
 ---
 
-[Read the full protocol tokenomics deep dive here]()
+[Read the full protocol tokenomics deep dive here](https://medium.com/bankless-dao/tokenomics-101-banklessdao-821063ad28f2)
